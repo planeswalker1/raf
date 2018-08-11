@@ -1,0 +1,8 @@
+<nav>
+  <ul {%if include.class-list %}class="{{ include.class-list }}"{% endif %}>
+    <li {%if include.class-item %}class="{{ include.class-item }}"{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+    <li {%if include.class-item %}class="{{ include.class-item }}"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+    <li {%if include.class-item %}class="{{ include.class-item }}"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+    <li {%if include.class-item %}class="{{ include.class-item }}"{% endif %}><a href="https://www.linkedin.com/in/danielmunozdev/">LinkedIn</a></li>
+  </ul>
+</nav>

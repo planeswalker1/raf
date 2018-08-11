@@ -1,0 +1,20 @@
+-
+  imgSrc: site.jpg
+  imgAlt: doohickey
+  meta: A website about me
+  src: https://planeswalker1.github.io
+  link: Home
+
+-
+  imgSrc: font.jpg
+  imgAlt: doohickey
+  meta: A website about typography
+  src: https://planeswalker1.github.io/typography/
+  link: Typography
+
+-
+  imgSrc: watch.jpg
+  imgAlt: doohickey
+  meta: A website about music
+  src: https://planeswalker1.github.io/watch/
+  link: Watch

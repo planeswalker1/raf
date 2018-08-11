@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}

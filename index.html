@@ -1,0 +1,43 @@
+---
+layout: default
+titleAfter: Welcome to my site
+---
+
+<div class="intro">
+  <div class="intro__avatar">
+      <img class="img--home" src="{{ site.baseurl }}/img/troll1.png" alt="Photo of Lanky and Genter">
+  </div>
+  <div class="intro__desc">
+    <p>
+        Hi, My name is Daniel.
+        I am currently developing projects with HTML, CSS, and JavaScript.
+        I upload most of my work on my <a href="https://github.com/planeswalker1">github</a>.
+        I like to make websites, and play League of Legends.
+        Thank you for visiting my site.
+    </p>
+    <p>
+      Known Web Languages:
+    </p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>javaScript</li>
+      <li>Git &amp; Github</li>
+      <li>Jekyll</li>
+    </ul>
+  </div>
+</div>
+<h1>Projects</h1>
+<div class="blocks">
+  {% for data in site.data.content %}
+  <div class="blocks__block">
+      <div class="block__item block__item--left">
+        <img class="img--home" src="{{ site.baseurl }}/img/{{ data.imgSrc}}" alt="Photo of {{ data.imgAlt}}">
+      </div>
+      <div class="block__item block__item--right">
+        <p>{{ data.meta }}</p>
+        <p><a href="{{ data.src }}">{{ data. link}}</a></p>
+      </div>
+    </div>
+  {% endfor %}
+</div>
