@@ -9,11 +9,41 @@ html {
 }
 
 body {
+  background-color: #101010;
   font-family: sans-serif;
   line-height: 1.4;
   margin: 0;
+  color: #fff;
 }
 
-img {
+header {
+  background-color: #181818;
+  border-bottom: 3px solid #000;
+}
+
+a {
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+a:before {
+  background-color: #fff;
+  content: '';
+  height: 1px;
   width: 100%;
+
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+
+
+footer {
+  background-color: #000;
+}
+
+span {
+  color: #5383d3;
 }

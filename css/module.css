@@ -1,0 +1,31 @@
+.page {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.nav__item--header {
+  margin-left: 15px;
+}
+
+.block__item--right {
+  padding-left: 20px;
+}
+
+.block__plat {
+  list-style-type: none;
+}
+
+.img--home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img--post {
+  height: 200px;
+}
+
+.copy {
+  margin: 0;
+  text-align: center;
+}
